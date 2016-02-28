@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Search app example using React and Flux</title>
+    <script type="text/javascript">
+      // we fill our localStorage with a few things, just so we could have results.
+      // blocking Javascript because the app won't function properly if we don't load them before everything else
+      localStorage.setItem('APPLE', 'Pie');
+      localStorage.setItem('BANANA', 'Shake');
+      localStorage.setItem('KIWI', 'Juice');
+      localStorage.setItem('ORANGE', 'Smoothie');
+      localStorage.setItem('GRAPEFRUIT', 'Soda');
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+  <body>
+    <div id="search"></div>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
