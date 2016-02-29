@@ -18,6 +18,9 @@ Next, start using it. If you want to test the 'Additional results feature', try 
 - orange
 - grapefruit
 
+And then clicking on the query when it becomes displayed.
+
+
 ##Production usage
 
 In case you want to use this in production, run `npm build` and then proceed to deployment.
